@@ -40,7 +40,7 @@ class RecipeList extends Component {
             )
         } else {
             return (
-                <h1 className="error">No recipes were found. Please try a different letter or keyword</h1>
+                <h1 className="error">No recipes found. Please try again</h1>
             );
         }
     }
